@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data ="">
+<html lang="fr" x-data ="{menuIsOpen: false}">
 
   <head>
     <meta charset="UTF-8" />
@@ -13,11 +13,11 @@
     <header>
       <h1>Test de menu</h1>
       <button @click="menuIsOpen = true">Ouvrir </button>
-      <nav id="mainNav">
+      <nav id="mainNav" x-show="menuIsOpen">
         <ul>
           <li><a href="cats/index.html">Accueil des chats</a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a href="item 2"></a></li>
+          <li><a href="item 3"></a></li>
         </ul>
       </nav>
     </header>
