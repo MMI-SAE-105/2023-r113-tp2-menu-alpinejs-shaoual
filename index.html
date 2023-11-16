@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data ="">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,11 +12,12 @@
     <!-- header>h1{Test de menu} -->
     <header>
       <h1>Test de menu</h1>
+      <button @click="menuIsOpen = true">Ouvrir </button>
       <nav id="mainNav">
         <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a href="item1"></a></li>
+          <li><a href="item2"></a></li>
+          <li><a href="item3"></a></li>
         </ul>
       </nav>
     </header>
